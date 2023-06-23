@@ -16,3 +16,13 @@ SPH simulates matter in four steps:
 
 Main.java contains the rendering pipeline and dispatches to SPH_GPU.
 gpulib/SPH_GPU.java is the core of the SPH simulation.
+
+Currently, to execute, you must clone the repository and run from source code (I am in the process of building a JAR release file). JDK version 19 was used for development.
+Keybinds:
+ - PAUSE BREAK = Pause time.
+ - UP/DOWN Arrows = Accelerate/Deaccelerate time (may destabilize the simulation if increased too far).
+ - BACKSPACE = Reverse time.
+ - Right click = Orbit camera target.
+ - Shift + Right click = Translate camera left/right/up/down relative to the camera.
+ - Scroll = Zoom out
+ - 0 = Zero all velocities.

@@ -1,6 +1,7 @@
 # SmoothedPlanetaryHydrodynamics
 Java implementation of smoothed particle hydrodynamics (SPH), to simulate the collisions of planetary scale bodies.
 ![sim1](https://github.com/Jazz-Coding/SmoothedPlanetaryHydrodynamics/assets/52354702/270775ec-8975-4c66-baaf-db7d80226f05)
+_A snapshot from a collision simulation, shortly following collision of a small mass with an Earth-sized mass._
 
 SPH simulates matter in four steps:
 

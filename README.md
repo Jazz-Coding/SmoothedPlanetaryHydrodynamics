@@ -1,5 +1,5 @@
 # SmoothedPlanetaryHydrodynamics
-Java implementation of smoothed particle hydrodynamics (SPH), to simulate the collisions of planetary scale bodies.
+Java implementation of smoothed particle hydrodynamics (SPH), to simulate the collisions of planetary scale bodies in realtime using CUDA (~32,000 particles at 60 FPS on an RTX 4090, 64,000 at 30 FPS).
 ![sim1](https://github.com/Jazz-Coding/SmoothedPlanetaryHydrodynamics/assets/52354702/270775ec-8975-4c66-baaf-db7d80226f05)
 _A snapshot from a collision simulation, shortly following collision of a small mass with an Earth-sized mass._
 

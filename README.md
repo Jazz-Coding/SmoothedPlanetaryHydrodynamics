@@ -1,7 +1,9 @@
 # SmoothedPlanetaryHydrodynamics
 Java implementation of smoothed particle hydrodynamics (SPH), to simulate the collisions of planetary scale bodies.
+![sim1](https://github.com/Jazz-Coding/SmoothedPlanetaryHydrodynamics/assets/52354702/270775ec-8975-4c66-baaf-db7d80226f05)
 
 SPH simulates matter in four steps:
+
 1. Matter is assumed to have continuous fields like density, pressure, and velocity.
 2. The continuum is divided into a finite collection of discrete elements, "particles".
 3. These particles interact pairwise (n^2), each particle influencing their neighbors weighted by a special "smoothing kernel", which weights more distant interactions weakly.
